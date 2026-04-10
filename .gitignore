@@ -1,0 +1,18 @@
+# Config files for note syncing and MCP server
+.stignore
+.stfolder
+.study-mcp/
+.opencode
+opencode.json
+AGENTS.md
+**/tmux*
+
+# Don't include actual course material
+**/code/
+**/exercises/
+**/past-exams/
+**/slides/
+
+# Ignore code artifacts
+**/.venv/
+**/__pychace__/
